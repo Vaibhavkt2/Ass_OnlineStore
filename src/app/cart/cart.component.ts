@@ -9,14 +9,17 @@ import * as Cart from "./../store/actions";
   selector: 'app-cart',
   template: `
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngFor="let product of cart | async">
-      <div class="my-list">
+      <div class="my-list text-center">
           <img src="http://hpservicecenterschennai.in/images/hp_laptop_service_centers_in_guindy.png" alt="" />
           <h3>{{product.name}}</h3>
           <span>$</span>
           <span class="pull-right">{{product.price}}</span>
           <div class="offer">
-            Extra 5% Off. Cart value $ {{0.05 * product.price}}
+            <b>Extra 5% Off. Cart value $ {{0.05 * product.price}}</b>
+            <div class="col">
+            <hr>
             <a (click)="removeFromCart(product)" class="btn btn-info">Remove From Cart</a>
+            </div>
           </div>
       </div>
     </div>

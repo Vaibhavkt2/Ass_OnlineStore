@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1 class="text-center">Online Store</h1>
+        <h1 class="text-center"><b>Online Store</b></h1>
        <hr />
       </div>
     </div>

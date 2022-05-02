@@ -11,7 +11,7 @@ import { PRODUCTS } from "./../store/market";
                 <h3>{{product.name}}</h3>
                 <span>$</span>
                 <span class="pull-right">{{product.price}}</span>
-                <div class="offer">Extra 5% Off. Cart value $ {{.05}} * {{ product.price}}</div>
+                <div class="offer"><b><u>Extra 5% Off.</u></b></div>
                 <div class="detail">
                     <p>{{product.name}} </p>
                     <img src="http://hpservicecenterschennai.in/images/hp_laptop_service_centers_in_guindy.png" alt="" />
